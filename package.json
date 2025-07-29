@@ -1,0 +1,52 @@
+{
+  "name": "@deepakrajpal27/terminal-dashboard",
+  "version": "1.0.0",
+  "description": "An interactive terminal dashboard using Inquirer and Chalk for system monitoring and management",
+  "main": "index.js",
+  "bin": {
+    "terminal-dashboard": "./bin/cli.js",
+    "tdash": "./bin/cli.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "terminal",
+    "dashboard",
+    "cli",
+    "inquirer",
+    "chalk",
+    "system-monitor",
+    "process-manager",
+    "file-explorer",
+    "network-info",
+    "system-info"
+  ],
+  "author": "Deepak Rajpal <your-email@example.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakrajpal27/terminal-dashboard.git"
+  },
+  "bugs": {
+    "url": "https://github.com/deepakrajpal27/terminal-dashboard/issues"
+  },
+  "homepage": "https://github.com/deepakrajpal27/terminal-dashboard#readme",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "files": [
+    "bin/",
+    "lib/",
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.15"
+  },
+  "type": "module"
+}
